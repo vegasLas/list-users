@@ -1,0 +1,23 @@
+.formControl.error input,
+.formControl.error textarea
+{
+    border: solid red 1px;
+    margin-bottom: 1px;
+}
+
+.formControl.error span
+{
+    color: red;
+    font-size: 15px;
+}
+
+.formSummaryError {
+    border: red 1px solid;
+    padding: 0px;
+    color: red;
+}
+.createUser__input {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+}

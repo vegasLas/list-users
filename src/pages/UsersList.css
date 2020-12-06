@@ -1,0 +1,53 @@
+.usersList {
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding:10px
+}
+.usersList_title {
+    text-align: center;
+    min-width: 100%;
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 3px solid rgb(173, 168, 168);
+    margin: 3px 5px;
+    background: rgb(243, 243, 243);
+    padding: 5px;
+    
+}
+.user__bio {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+.navlink {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+.usersList__button {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom:  10px;
+}
+.filterfield {
+    margin-right: 20px;
+}
+.filterfield_title {
+    margin-right: 20px;
+}
+.filtered_form {
+    margin-bottom: 10px;
+}
