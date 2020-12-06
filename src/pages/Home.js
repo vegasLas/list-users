@@ -9,8 +9,7 @@ export default function Home() {
     return (
         <div className='home'>
             <Switch>
-                <Route path='/' exact><Redirect to='/list' /></Route>
-                <Route path='/list' render={() => <UsersList />} ></Route>
+                <Route path='/' render={() => <UsersList />} ></Route>
                 <Route path='/create' render={() => <CreateUserComponent />} ></Route>
                 <Route path='/edit' render={() => <EditUserComponent />} ></Route>
             </Switch>
